@@ -11,6 +11,7 @@
     "compile": "webpack -d --watch"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-core": "6.24.1",
     "babel-plugin-react": "1.0.0",
     "babel-preset-react": "6.24.1",
