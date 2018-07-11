@@ -11,8 +11,8 @@ const handleVideoSearch = (q) => {
       key: YOUTUBE_API_KEY,
       query: q,
     }, (videos) => {
-      changeVideo(videos[0]);
-      changeVideoList(videos);
+      dispatch(changeVideo(videos[0]));
+      dispatch(changeVideoList(videos));
     })
   );
 };
